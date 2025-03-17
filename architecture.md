@@ -52,15 +52,20 @@ A high-level overview of the experiment.
 * Description of test concept
 * Behavioural heuristic - Clarity, Usability etc.
 * Growth area - Retention, Acquisition etc.
+* Audience - All visitors, Spain, Hosts, Drivers etc.
 * Prioritisation ratings - ICE, PIE, something else etc.
 * Opportunity size - what is the estimated business opportunity if the solution is successful?
-* Test location - Checkout, Homepage etc.
+* Test location - Checkout, Homepage, Landing Page etc.
+* Components - Form, Image, Value Proposition etc.
 * Metric - target primary metric
+* Risk - Low, Medium, High
 * Platform - Web, Mobile etc.
 * Estimated test time - days / weeks
 * Estimated design time - hours / days
 * Estimated build time - hours / days
 * Status - Idea, Build, Running etc.
+* Test completion date
+* Test outcome - Positive, Inconclusive, Negative
 
 
 
