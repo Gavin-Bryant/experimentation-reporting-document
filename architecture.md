@@ -5,11 +5,28 @@
 ## Purpose
 The purpose of this document is to outline a proposed information architecture to assist with the accurate and detailed documentation of experimentation planning, design, deployment, analysis and decision-making. 
 
-The brief aims to highlight key focus areas for experiment design, execution and reporting that need to be addressed to facilitate a high-performance experimentation program, and perform repeatable, reliable and trustworthy experiments.
+The document aims to highlight key focus areas for experiment design, execution and reporting that need to be addressed to facilitate a high-performance experimentation program, and perform repeatable, reliable and trustworthy experiments.
 
 Data and insights from each detailed master experimentation report can be carved out for organisation communications, reporting, stakeholder presentations etc.
 
 The experimentation reporting document is a live document, evolving and updated during the course of the experiment lifecycle.
+
+Use this document as template to ensure that experiments are conducted in a systemmatic and structured manner.
+
+
+
+## Why documenting experiments is important
+Documenting your experiments is important for a number of reasons:
+
+* Ensures a consistent and standardised approach to conducting all experiments in an organisation
+* Provides a common language and terminology around experimentation
+* There is an audit trail and traceability for all experiments
+* Drives experimentation process efficiencies across the organisation - individual teams not creating cottage industries
+* Experimentation documentation can be easily stored and shared across the organisation
+* Engenders strong alignment around experiment hypothesis - hypothesis setting is a team sport
+* All experiment metrics are declared and documented upfront
+* Avoids mistakes during test Design and QA (and a need to re-run tests) - reduces the likelihood of human error
+* An educational tool to help teams understand all the components required to conduct a high-quality experiment
 
 
 
@@ -19,14 +36,15 @@ The document outlines key considerations for the following focus areas:
 1.	Experiment summary
 2.	Experiment overview
 3.	Experiment owners
-4.	Customer insights & research
-5.	Hypothesis
-6.	Metrics
-7.	Statistical planning
-8.	Experiment design
-9.	Quality assurance
-10.	Data analysis & results
-11.	Key learnings & next actions
+4.	Research & evidence
+5.	Learning objectives
+6.	Hypothesis
+7.	Metrics
+8.	Statistical planning
+9.	Experiment design
+10.	Quality assurance
+11.	Data analysis & results
+12.	Key learnings & next actions
 
 
 
@@ -91,15 +109,19 @@ Key stakeholders:
 
 
 
-## 4. Customer research
+## 4. Research & evidence
 Provide an overview of the key insights and customer research that have fed into the experiment.
 
 * Summarise the key Qualitative and Quantitative insights that have informed the hypothesis
+* External research
+* Competitor intelligence
 * Research sources – links to research / data sources
 * Past results – are there any priors that inform the experiment (link: analysis, experiment results, research)
 * Problem statement – This is a [_problem or opportunity_] because [_assumptions about value_]
 * Proposed solution – We believe that [_description of testable solution_]
 * Strategic business goals – how does this opportunity link to business strategy, goals and objectives
+
+Checkpoint: Do we need to test this opportunity with an experiment? If no, what other forms of evidence can inform a path forward for decision-making.
 
 
 
@@ -113,7 +135,19 @@ Define and declare your hypothesis upfront – the hypothesis should be precise,
 
 
 
-## 6. Metrics
+## 6. Learning objectives
+What do you hope to learn from performing the experiment?
+
+* We need to understand the impact of this change on customer experience
+* We need to understand the impact of this change on business performance
+* We need to understand if there are any unintended consequences or negative impacts
+* We need to understand how this change will inform our future work
+
+For example, We want to understand how reframing the Value Proposition on the homepage will impact lead generation for X and Y segments.
+
+
+
+## 7. Metrics
 Declare and register the key metrics that you will measure for the experiment across the key metrics categories.
 
 Metric categories:
@@ -128,7 +162,7 @@ If [_insert change_] improves [_insert key metric_] and has positive or null eff
 
 
 
-## 7. Statistical planning
+## 8. Statistical planning
 Outline and document the key statistical parameters that inform experiment design and execution.
 
 |             Category             |          Example             |
@@ -146,7 +180,7 @@ Outline and document the key statistical parameters that inform experiment desig
 
 
 
-## 8. Experiment design
+## 9. Experiment design
 Define and document all the parameters for design and execution of the experiment.
 
 
@@ -174,7 +208,7 @@ For example:
 
 
 
-## 9. Quality assurance
+## 10. Quality assurance
 This Quality Assurance (QA) testing plan outlines the process to ensure accurate and reliable deployment of an experiment. The goal is to validate experiment setup, mitigate risks, and ensure a seamless user experience while maintaining data integrity. Experiment QA will vary between organisations and the number of resources availalbe for QA activities.
 
 ### _Experiment setup_
@@ -219,7 +253,7 @@ This Quality Assurance (QA) testing plan outlines the process to ensure accurate
 
 
 
-## 10. Data analysis & results
+## 11. Data analysis & results
 Conduct post-hoc analysis of relevant experiment data and results to understand key learnings and insights from the test.
 
 Compute:
@@ -244,7 +278,7 @@ Key questions:
 
 
 
-## 11. Key learnings & next actions
+## 12. Key learnings & next actions
 Summarise the learnings and insights from the experiment, outlining key decisions and next business actions.
 
 We learned that:
