@@ -26,6 +26,7 @@ Documenting your experiments is important for a number of reasons:
 * Engenders strong alignment around experiment hypothesis - hypothesis setting is a team sport
 * All experiment metrics are declared and documented upfront
 * Avoids mistakes during test Design and QA (and a need to re-run tests) - reduces the likelihood of human error
+* Clear direction for post-experimentation analysis
 * An educational tool to help teams understand all the components required to conduct a high-quality experiment
 
 
