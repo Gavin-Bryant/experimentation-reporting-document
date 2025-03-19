@@ -78,7 +78,7 @@ A high-level overview of the experiment.
 * Components - Form, Image, Value Proposition etc.
 * Metric - target primary metric
 * Risk - Low, Medium, High
-* Platform - Web, Mobile etc.
+* Platform - Web, Mobile Android, Mobile iOS etc.
 * Estimated test time - days / weeks
 * Estimated design time - hours / days
 * Estimated build time - hours / days
@@ -188,11 +188,11 @@ Define and document all the parameters for design and execution of the experimen
 For example:
 * Audience – target audience / cohorts / allocations
 * Audience size - how big are the cohorts
-* Eligibility criteria – New user, Returning user, Logged in user etc.
+* Eligibility criteria – New user, Returning user, Language etc.
 * Platform – web or mobile etc.
 * Device – Android or iOS etc.
-* Geo-targeting – Country, State etc.
-* Duration – the test will run for X Days / X Weeks
+* Geo-targeting – Country, State, Location etc.
+* Duration – the test will run for X Days / X Weeks from DD/MM/YYYY to DD/MM/YYYY (to detect a smaller lift will require a longer runtime)
 * Experiment dates – Start Date / Finish Date
 * Start rules – Anytime / After test X ends
 * Stop rules – Fixed duration / Fixed sample / Sequential
@@ -200,12 +200,13 @@ For example:
 * Replication – is the test a replication run?
 * Test type – Superiority / Inferiority 
 * Traffic split – 50/50
-* Assignment criteria – unit of randomisation (E.g., User ID)
+* Unit of randomisation (E.g., User ID, Device ID, Email recipient)
+* Assignment criteria - what point a User/Device is bucketed into a Control/Treatment group
 * Metrics -  existing metrics / build new metrics
 * Experiment design – wireframes / designs / copy (footnote and link to relevant materials)
 * Variants – Control / Variant description
 * Interaction check – does the test interact with any other Planned / In-Flight tests?
-* Risks - identify and mitigate risks
+* Risks - identify and mitigate risks (could the experiment have adverse effects we're not measuring?)
 
 
 
