@@ -137,14 +137,17 @@ Define and declare your hypothesis upfront – the hypothesis should be precise,
 
 
 ## 6. Learning objectives
-What do you hope to learn from performing the experiment?
+What do you hope to learn from performing the experiment? What are your learning objectives?
 
-* We need to understand the impact of this change on customer experience
-* We need to understand the impact of this change on business performance
-* We need to understand if there are any unintended consequences or negative impacts
-* We need to understand how this change will inform our future work
+* We want to understand how reframing the Value Proposition on the homepage will impact lead generation
+* We want to understand which customer segments find the incentive scheme most compelling
+* We want to understand how adding a new pricing tier impacts conversions to existing plans for new users
 
-For example, We want to understand how reframing the Value Proposition on the homepage will impact lead generation for X and Y segments.
+Think about the following:
+* Impacts to customer experience
+* Impacts to business performance
+* Unintended consequences or downstream/upstream impacts
+* How learnings will inform your future work
 
 
 
